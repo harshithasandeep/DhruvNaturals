@@ -420,5 +420,27 @@
     }
 
 }
+/* DEEPAVALI OFFER - SINGLE LINE */
+
+.diwali-banner {
+    background: linear-gradient(90deg, #7b1e1e, #b52d22, #7b1e1e);
+    color: #ffd978;
+    text-align: center;
+    padding: 12px 5px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    white-space: nowrap;
+}
+
+/* MOBILE VIEW */
+
+@media (max-width: 600px) {
+    .diwali-banner {
+        font-size: 10px;
+        padding: 10px 2px;
+        letter-spacing: 0;
+    }
+}
 
 
